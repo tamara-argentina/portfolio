@@ -188,12 +188,12 @@
 
 			var bannerPictures=[]
 
-			bannerPictures[0]= ('images/dance/frame-paper.png')
-			bannerPictures[1]=('images/dance/frame-paper2.png')
-			bannerPictures[2]=('images/dance/frame-profile.png')
-			bannerPictures[3]=('images/dance/digital-home.png')
-			bannerPictures[4]=('images/dance/digital-styles.png')
-			bannerPictures[5]=('images/dance/digital-video.png')
+			bannerPictures[0]= ('images/dance/paper-home.png')
+			bannerPictures[1]=('images/dance/digital-home.png')
+			bannerPictures[2]=('images/dance/paper-video.png')
+			bannerPictures[3]=('images/dance/digital-video.png')
+			bannerPictures[4]=('images/dance/paper-profile.png')
+			bannerPictures[5]=('images/dance/digital-profile.png')
 
 
 
@@ -215,14 +215,14 @@
 				primerBanner.src=bannerPictures[indice]
 			}
 
-			setInterval(cambioImagen1, 5000);
+			setInterval(cambioImagen1, 4000);
 
 			//slide1
 			var bannerPictures1=[]
 
-			bannerPictures1[0]=('images/dance/styles.png')
-			bannerPictures1[1]=('images/dance/styles-search.png')
-			bannerPictures1[2]=('images/dance/home-mobile.png')
+			bannerPictures1[0]=('images/dance/home-mobile.png')
+			bannerPictures1[1]=('images/dance/styles.png')
+			bannerPictures1[2]=('images/dance/styles-search.png')
 
 
 
