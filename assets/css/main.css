@@ -3390,7 +3390,7 @@ input, select, textarea {
 
 		}
 
-/* slider */
+/* sliders */
 
 .wireframe-slider{
 	margin: auto;
@@ -3465,3 +3465,46 @@ input, select, textarea {
  .zoom:hover{
 	 transform: scale(1.5);
  }
+
+ .competitive-slider{
+	margin: auto;
+	width: 95%;
+	overflow: hidden;
+	
+  }
+
+  .competitive-slider > ul {
+	display: flex;
+	padding: 0;
+	list-style: none;
+	width: 400%;
+
+	animation: slide-competitive 30s infinite;
+	animation-direction: alternate;
+}
+
+.competitive-slider > li {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.competitive-slider img {
+  width: 90%;
+}
+
+@keyframes slide-competitive {
+	0% {margin-left: 0;}
+	25% { margin-left: 0;}
+
+	27% {margin-left: -100%;}
+	50% { margin-left: -100%;}
+
+	53% {margin-left: -200%;}
+	75% { margin-left: -200%;}
+
+	77% {margin-left: -300%;}
+	100% { margin-left: -300%;}
+	
+}
+ 
