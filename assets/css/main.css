@@ -3468,7 +3468,7 @@ input, select, textarea {
 
  .competitive-slider{
 	margin: auto;
-	width: 95%;
+	width: 100%;
 	overflow: hidden;
 	
   }
@@ -3490,7 +3490,7 @@ input, select, textarea {
 }
 
 .competitive-slider img {
-  width: 90%;
+  width: 100%;
 }
 
 @keyframes slide-competitive {
