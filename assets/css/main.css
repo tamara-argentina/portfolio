@@ -2786,7 +2786,7 @@ input, select, textarea {
 					opacity: 0.95;
 				}
 				body:not(.is-touch) .tiles article:hover > #rosario-cover:before {
-					background-color: #CDC884;
+					background-color: #cec76d;
 					opacity: 0.95;
 				}
 
