@@ -229,12 +229,12 @@ input, select, textarea {
 		text-transform: uppercase;
 		font-size: 1em;
 		text-align: center;
-		color: #B4AF6A;
+		color: #83803e;
 		letter-spacing: 0.2em;
 	}
 
 	h4.dance{
-		color: #B687D7;
+		color: #8559a5;
 	}
 
 	h4.rosario{
@@ -242,7 +242,7 @@ input, select, textarea {
 	}
 
 	h4.movie{
-		color: #3EAB8C;
+		color: #007b5f;
 	}
 /*ELEMENTS OF EACH PHASE*/
 	h5 {
@@ -2762,7 +2762,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #007b5f;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2778,15 +2778,15 @@ input, select, textarea {
 				}
 
 				body:not(.is-touch) .tiles article:hover > #movie-cover:before {
-					background-color: #3EAB8C;
+					background-color: #007b5f;
 					opacity: 0.95;
 				}
 				body:not(.is-touch) .tiles article:hover > #dance-cover:before {
-					background-color: #B687D7;
+					background-color: #8559a5;
 					opacity: 0.95;
 				}
 				body:not(.is-touch) .tiles article:hover > #rosario-cover:before {
-					background-color: #cec76d;
+					background-color: #83803e;
 					opacity: 0.95;
 				}
 
