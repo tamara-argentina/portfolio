@@ -144,6 +144,35 @@
 
 			setInterval(cambioImagen10, 3000);
 
+			//slide5
+
+            var bannerRosario6=[]
+
+            bannerRosario6[0]=('images/verde/profile.png')
+            bannerRosario6[1]=('images/verde/profile-withsearch.png')
+            bannerRosario6[2]=('images/verde/home.png')
+            
+
+            var sliderosario6 = document.getElementById("sliderosario6");
+
+
+			sliderosario6.src=bannerRosario6[0]
+
+			var indice6=0
+
+			function cambioImagen11(){
+
+				indice6++
+
+				if(indice6>2){
+					indice6=0
+				}
+
+				sliderosario6.src=bannerRosario6[indice6]
+			}
+
+			setInterval(cambioImagen11, 3000);
+
 })(jQuery);
 
  
