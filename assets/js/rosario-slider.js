@@ -121,7 +121,8 @@
 
             bannerRosario5[0]=('images/verde/tiendas-vegan.png')
             bannerRosario5[1]=('images/verde/el-apotecario.png')
-            bannerRosario5[2]=('images/verde/el-apotecario-liked.png')
+			bannerRosario5[2]=('images/verde/el-apotecario-esparcido.png')
+            bannerRosario5[3]=('images/verde/el-apotecario-liked.png')
             
 
             var sliderosario5 = document.getElementById("sliderosario5");
@@ -135,7 +136,7 @@
 
 				indice5++
 
-				if(indice5>2){
+				if(indice5>3){
 					indice5=0
 				}
 
