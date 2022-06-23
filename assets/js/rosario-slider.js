@@ -86,6 +86,35 @@
 
 			setInterval(cambioImagen8, 3000);
 
+            //slide4
+
+            var bannerRosario4=[]
+
+            bannerRosario4[0]=('images/verde/tiendas.png')
+            bannerRosario4[1]=('images/verde/tiendas-comestibles.png')
+            bannerRosario4[2]=('images/verde/tiendas-indumentaria.png')
+            bannerRosario4[3]=('images/verde/tiendas-cosmetica.png')
+
+            var sliderosario4 = document.getElementById("sliderosario4");
+
+
+			sliderosario4.src=bannerRosario4[0]
+
+			var indice4=0
+
+			function cambioImagen9(){
+
+				indice4++
+
+				if(indice4>3){
+					indice4=0
+				}
+
+				sliderosario4.src=bannerRosario4[indice4]
+			}
+
+			setInterval(cambioImagen9, 3000);
+
 })(jQuery);
 
  
