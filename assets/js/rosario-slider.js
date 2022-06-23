@@ -14,17 +14,17 @@
 
 			sliderosario.src=bannerRosario[0]
 
-			var indice=0
+			var indice1=0
 
 			function cambioImagen6(){
 
-				indice++
+				indice1++
 
-				if(indice>2){
-					indice=0
+				if(indice1>2){
+					indice1=0
 				}
 
-				sliderosario.src=bannerRosario[indice]
+				sliderosario.src=bannerRosario[indice1]
 			}
 
 			setInterval(cambioImagen6, 3000);
@@ -43,47 +43,48 @@
 
 			sliderosario2.src=bannerRosario2[0]
 
-			var indice=0
+			var indice2=0
 
 			function cambioImagen7(){
 
-				indice++
+				indice2++
 
-				if(indice>2){
-					indice=0
+				if(indice2>2){
+					indice2=0
 				}
 
-				sliderosario2.src=bannerRosario2[indice]
+				sliderosario2.src=bannerRosario2[indice2]
 			}
 
 			setInterval(cambioImagen7, 3000);
 
-            // //slide3
+            //slide3
 
-            // var bannerRosario3=[]
+            var bannerRosario3=[]
 
-            // bannerRosario3[0]=('images/verde/restos-fast-food.png')
-            // bannerRosario3[1]=('images/verde/restos-fast-vegan.png')
+            bannerRosario3[0]=('images/verde/restos-fast-food.png')
+            bannerRosario3[1]=('images/verde/restos-fast-vegan.png')
+            bannerRosario3[2]=('images/verde/restos-pizzeria.png')
 
-            // var sliderosario3 = document.getElementById("sliderosario3");
+            var sliderosario3 = document.getElementById("sliderosario3");
 
 
-			// sliderosario3.src=bannerRosario3[0]
+			sliderosario3.src=bannerRosario3[0]
 
-			// var indice=0
+			var indice3=0
 
-			// function cambioImagen8(){
+			function cambioImagen8(){
 
-			// 	indice++
+				indice3++
 
-			// 	if(indice>1){
-			// 		indice=0
-			// 	}
+				if(indice3>2){
+					indice3=0
+				}
 
-			// 	sliderosario3.src=bannerRosario3[indice]
-			// }
+				sliderosario3.src=bannerRosario3[indice3]
+			}
 
-			// setInterval(cambioImagen8, 3000);
+			setInterval(cambioImagen8, 3000);
 
 })(jQuery);
 
