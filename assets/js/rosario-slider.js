@@ -115,6 +115,35 @@
 
 			setInterval(cambioImagen9, 3000);
 
+            //slide5
+
+            var bannerRosario5=[]
+
+            bannerRosario5[0]=('images/verde/tiendas-vegan.png')
+            bannerRosario5[1]=('images/verde/el-apotecario.png')
+            bannerRosario5[2]=('images/verde/el-apotecario-liked.png')
+            
+
+            var sliderosario5 = document.getElementById("sliderosario5");
+
+
+			sliderosario5.src=bannerRosario5[0]
+
+			var indice5=0
+
+			function cambioImagen10(){
+
+				indice5++
+
+				if(indice5>2){
+					indice5=0
+				}
+
+				sliderosario5.src=bannerRosario5[indice5]
+			}
+
+			setInterval(cambioImagen10, 3000);
+
 })(jQuery);
 
  
