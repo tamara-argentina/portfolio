@@ -5,10 +5,10 @@
 			var bannerPictures=[]
 
 			bannerPictures[0]= ('images/dance/paper-home.png')
-			bannerPictures[1]=('images/dance/digital-home.png')
-			bannerPictures[2]=('images/dance/paper-video.png')
-			bannerPictures[3]=('images/dance/digital-video.png')
-			bannerPictures[4]=('images/dance/paper-profile.png')
+			bannerPictures[1]=('images/dance/paper-video.png')
+			bannerPictures[2]=('images/dance/paper-profile.png')
+			bannerPictures[3]=('images/dance/digital-home.png')
+			bannerPictures[4]=('images/dance/digital-video.png')
 			bannerPictures[5]=('images/dance/digital-profile.png')
 
 			var primerBanner = document.getElementById("slides");
@@ -16,17 +16,17 @@
 
 			primerBanner.src=bannerPictures[0]
 
-			var indice=1
+			var index=1
 
 			function cambioImagen1(){
 
-				indice++
+				index++
 
-				if(indice>5){
-					indice=1
+				if(index>5){
+					index=1
 				}
 
-				// primerBanner.src=bannerPictures[indice]
+				primerBanner.src=bannerPictures[index]
 			}
 
 			setInterval(cambioImagen1, 4000);
