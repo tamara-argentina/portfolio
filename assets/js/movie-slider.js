@@ -4,7 +4,7 @@
 
     var moviePictures1=[]
 
-    moviePictures1[0]= ('images/movie/cover.png')
+    moviePictures1[0]= ('images/movie/home.png')
     moviePictures1[1]=('images/movie/SIDE-MENU.png')
     moviePictures1[2]=('images/movie/home-scrolled.png')
 
