@@ -87,7 +87,7 @@
 
     var moviePictures4=[]
 
-    moviePictures4[0]= ('images/movie/cart.png')
+    moviePictures4[0]= ('images/movie/Cart.png')
     moviePictures4[1]=('images/movie/pickup.png')
     
     var movie4 = document.getElementById("movie4");
