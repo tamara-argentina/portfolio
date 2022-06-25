@@ -23,7 +23,7 @@
 				index++
 
 				if(index>5){
-					index=1
+					index=0
 				}
 
 				primerBanner.src=bannerPictures[index]
