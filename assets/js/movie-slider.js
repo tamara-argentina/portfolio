@@ -6,7 +6,7 @@
 
     moviePictures1[0]= ('images/movie/home.png')
     moviePictures1[1]=('images/movie/Side-Menu.png')
-    moviePictures1[2]=('images/movie/Home-scrolled.png')
+    moviePictures1[2]=('images/movie/food.png')
 
     var movie1 = document.getElementById("movie1");
 
@@ -32,7 +32,7 @@
 
     var moviePictures2=[]
 
-    moviePictures2[0]= ('images/movie/food.png')
+    moviePictures2[0]= ('images/movie/coffee.png')
     moviePictures2[1]=('images/movie/beverages.png')
     moviePictures2[2]=('images/movie/snacks.png')
     
