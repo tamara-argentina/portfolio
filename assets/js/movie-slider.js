@@ -61,7 +61,7 @@
     var moviePictures3=[]
 
     moviePictures3[0]= ('images/movie/pop-up.png')
-    moviePictures3[1]=('images/movie/added-tick.png')
+    moviePictures3[1]=('images/movie/carusel.png')
     
     var movie3 = document.getElementById("movie3");
 
