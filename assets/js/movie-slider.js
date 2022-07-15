@@ -4,9 +4,9 @@
 
     var moviePictures1=[]
 
-    moviePictures1[0]= ('images/movie/home.png')
-    moviePictures1[1]=('images/movie/Side-Menu.png')
-    moviePictures1[2]=('images/movie/food.png')
+    moviePictures1[0]=('images/movie/presentation.png')
+    moviePictures1[1]= ('images/movie/home.png')
+    moviePictures1[2]=('images/movie/Side-Menu.png')
 
     var movie1 = document.getElementById("movie1");
 
