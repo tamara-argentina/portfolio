@@ -2940,7 +2940,7 @@ footer {
 /* Header */
 
 .navbar {
-    background-color: transparent;
+    background-color: white;
 	opacity: 80%;
     position: fixed; /* Changed to fixed */
     top: 0;
