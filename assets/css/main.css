@@ -2941,7 +2941,7 @@ footer {
 
 .navbar {
     background-color: white;
-	opacity: 80%;
+	opacity: 50%;
     position: fixed; /* Changed to fixed */
     top: 0;
     width: 100%;
