@@ -3025,7 +3025,14 @@ footer {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1152px) {
+	.hamburger-container {
+        padding-top: 0; /* Remove padding on small screens */
+    }
+}
+
+@media screen and (max-width: 736px) {
     .navbar {
         display: none;
     }
@@ -3038,7 +3045,6 @@ footer {
         padding-top: 0; /* Remove padding on small screens */
     }
 }
-
 /* Wrapper */
 
 	#wrapper {
