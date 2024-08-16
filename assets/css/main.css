@@ -2970,8 +2970,8 @@ footer {
     padding: 14px 16px;
     text-decoration: none;
     display: block;
-    transition: background-color 0.3s;
-	margin:0;
+     transition: background-color 0.3s;
+	margin: 0;
 }
 
 .hamburger-container {
