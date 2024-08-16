@@ -2964,6 +2964,15 @@ footer {
     color:  #37c0a3;
 }
 
+#separador{
+	color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
 .hamburger-container {
     padding-top: 50px; /* Adjust to push content */
     text-align: right;
