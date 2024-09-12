@@ -3694,6 +3694,7 @@ footer {
     text-decoration: none;
     display: block;
     transition: background-color 0.3s;
+cursor: pointer;
 }
 
 .nav-item:hover {
