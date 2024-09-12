@@ -11,7 +11,27 @@ const navbar = document.getElementById('navbar');
 const mobileNav = document.querySelector('.mobile-nav');
 
 
+//arrow scroll behaviour
+function scrollToSection(sectionId, event) {
+    if (event) {
+        event.preventDefault();  // Prevent the default anchor behavior
+    }
 
+    var section = document.getElementById(sectionId);
+    if (!section) {
+        console.error('Section not found:', sectionId);
+        return; // Exit if the section is not found
+    }
+
+    const sectionTop = section.getBoundingClientRect().top;
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const finalPosition = sectionTop + scrollTop;
+
+    window.scrollTo({
+        top: finalPosition,
+        behavior: 'smooth'
+    });
+}
 
 window.addEventListener('scroll', function() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
