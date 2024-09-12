@@ -3723,6 +3723,9 @@ footer {
     padding: 10px 16px;
 }
 
+.mobile-nav.scrolled {
+    opacity: 0; /* Hidden opacity when scrolling down */
+}
 
 .icon {
     color: black;
