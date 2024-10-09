@@ -3419,7 +3419,7 @@ input, select, textarea {
 	padding: 3em;
 
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 736px) {
 
 	.creation-card{
 		padding: 3em 1em;
