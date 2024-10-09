@@ -3413,6 +3413,19 @@ input, select, textarea {
 
 }
 
+/*CREATION CONTENT*/
+
+.creation-card{
+	padding: 3em;
+
+}
+@media screen and (min-width: 980px) {
+
+	.creation-card{
+		padding: 3em 1em;
+	}
+	
+	}
 
 @media screen and (min-width: 980px) {
 
