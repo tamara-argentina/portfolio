@@ -357,9 +357,6 @@ input, select, textarea {
 
 		}
 
-.versatile{
-	font-family: 'Reenie Beanie';
-}
 
 /* Row */
 
@@ -3920,4 +3917,8 @@ a.icon { /* Assuming your icons are within <a> tags */
 
 .highlights-titles{
 	font-size: 1.3em;
+}
+
+.versatile{
+	font-family: 'Reenie Beanie';
 }
