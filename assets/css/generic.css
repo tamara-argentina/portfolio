@@ -3417,7 +3417,7 @@ input, select, textarea {
 @media screen and (min-width: 980px) {
 
 	.creation-content{
-		margin: 0 5em;
+		margin: 0;
 	}
 	
 	}
