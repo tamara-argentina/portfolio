@@ -3841,6 +3841,10 @@ a.icon { /* Assuming your icons are within <a> tags */
 		letter-spacing: 0.035em
 }
 
+#valuable{
+	letter-spacing:1.3rem;;
+}
+
 @media screen and (max-width: 736px) {
 	.landing-text{
 		font-size: 1.8em;
@@ -3849,7 +3853,9 @@ a.icon { /* Assuming your icons are within <a> tags */
 		margin: 0 0 1em 0;
 		letter-spacing: 0.03em
 	}
-
+	#valuable{
+		letter-spacing: 0.7rem;
+	}
 }
 
 /*LOGO*/
