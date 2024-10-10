@@ -1919,7 +1919,7 @@ input, select, textarea {
 			height: 3.2625rem;
 			line-height: 3.2625rem;
 			padding: 0 3.25rem;
-			text-decoration: underline dotted;
+			
 		}
 
 		input[type="submit"].wide,
@@ -1964,8 +1964,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: none;
-			box-shadow: none;
+			border-color:#f3f3f3;
 			color: #000000 !important;
 		}
 
