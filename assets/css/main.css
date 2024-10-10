@@ -3845,7 +3845,7 @@ a.icon { /* Assuming your icons are within <a> tags */
 	.landing-text{
 		font-size: 1.8em;
 		font-weight: 700;
-		line-height: 1.5em;
+		line-height: 1.8em;
 		margin: 0 0 1em 0;
 		letter-spacing: 0.03em
 	}
